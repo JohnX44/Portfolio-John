@@ -1,0 +1,304 @@
+*{
+  
+    color: black;
+    margin: 0;
+    padding: 0%;
+    
+   
+}
+.navbar{
+    margin-bottom: 2%;
+    
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+    
+    
+   
+}
+
+
+.nav-link{
+   margin-left: 1rem;
+   margin-right: 1rem;
+   color: black;
+  
+   
+}
+.navbar-brand{
+    margin-left: 1rem;
+    color: black;
+    font-size: 2rem;
+}
+.hero{
+    border-radius: 3%;
+    background-color: #EEEEEE;
+   
+}
+
+.row{
+
+    height: 100px;
+    background-color: white;
+    
+}
+.col{
+    height: 100px;
+    background-color: white;
+    
+}
+.white{
+    background-color: black;
+}
+.tech{
+    background-color: white;
+    font-family: "New Amsterdam", sans-serif;
+  font-weight: 200;
+  font-style: bold;
+  font-size: 3rem;
+}
+.footer{
+    margin-top: 15%;
+}
+.services{
+    margin-top: 3%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    
+}
+.titles{
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+.heros
+{
+    font-family: "New Amsterdam", sans-serif;
+  font-weight: 200;
+  font-style: bold;
+  font-size: 4rem;
+  
+}
+
+p{
+  font-family: "DM Sans", sans-serif;
+  font-weight: 350;
+  font-optical-sizing: auto;
+  font-size: 1rem; /* Base font size */
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.lead{
+
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-optical-sizing: auto;
+  font-size: 1.5rem; /* Base font size */
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.Firstlead{
+
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 200;
+  font-style: bold;
+  font-size: 8rem;
+}
+.Firstlead p{
+
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-optical-sizing: auto;
+  font-size: .7rem; /* Base font size */
+  line-height: 1;
+  letter-spacing: 0.03em;
+}
+
+
+.servc{
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    font-size: 3rem;
+}
+.Project{
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    font-size: 3rem;
+}
+
+
+.icon {
+    position: relative;
+    top: 20px;
+    opacity: 0;
+    transition: all 0.5s ease; /* Smooth transition */
+  }
+  
+  .card {
+    transition: margin-top 0.3s ease; /* Smooth transition for hover effect */
+  }
+  .nav-link {
+    position: relative; /* Ensure that the nav link is positioned relative to contain the icons */
+    padding-right: 40px; /* Add some padding to make space for the icon */
+  }
+  
+  .nav-icon {
+    position: absolute; /* Position the icon absolutely within the nav link */
+    top: 0; /* Position at the top */
+    left: -40px; /* Position to the left of the link */
+    font-size: 1.2em; /* Adjust size of the icon */
+    opacity: 0; /* Initially hide the icon */
+    transition: opacity 0.3s ease; /* Smooth fade-in effect */
+  }
+  
+  .nav-link:hover .nav-icon {
+    opacity: 1; /* Show the icon when hovering over the nav link */
+  }
+ /* Container for tech stack item */
+.tech-item {
+    position: relative; /* For positioning the fact text absolutely within the item */
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Fact text */
+  .fact-text {
+    position: absolute;
+    top: -40px; /* Position above the icon */
+    left: 20%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 0.5em;
+    color: #06D001;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease, top 0.3s ease; /* Smooth fade-in and slide effect */
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
+  /* Icon initial size */
+  .icon {
+    font-size: 4em; /* Original size of the icon */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+  }
+  
+  /* Icon grow effect */
+  .tech-item:hover .icon {
+    transform: scale(1.2); /* Enlarge icon by 20% */
+  }
+  
+  /* Show fact text on hover */
+  .tech-item:hover .fact-text {
+    opacity: 1; /* Show fact text */
+    top: -60px; /* Slide up text */
+  }
+  
+
+  .btn-attractive {
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem; /* More rounded corners */
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase; /* Uppercase text for a strong impression */
+    background: linear-gradient(135deg, #ff6f61, #de6f9e); /* Gradient background */
+    color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease; /* Smooth transitions for all properties */
+    position: relative; /* For positioning pseudo-elements */
+    overflow: hidden; /* Hide overflow for the pseudo-element */
+  }
+  
+  /* Hover effect */
+  .btn-attractive:hover {
+    background: linear-gradient(135deg, #de6f9e, #ff6f61); /* Reverse gradient on hover */
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); /* Enhanced shadow */
+  }
+  
+  /* Icon effect */
+  .btn-attractive a i {
+    transition: transform 0.3s ease;
+  }
+  
+  /* Icon hover effect */
+  .btn-attractive:hover a i {
+    transform: translateX(10px); /* Move icon more on hover */
+  }
+  
+  .btn-attractive::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.4s ease;
+    z-index: 0;
+  }
+  
+  .btn-attractive:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .d-grid {
+    display: grid;
+    place-items: center; /* Center items both horizontally and vertically */
+  }
+
+  .social-icon{
+
+    text-decoration: none;
+  }
+  .hero-container {
+    display: flex; /* Flexbox to position items side by side */
+    align-items: center; /* Center-aligns items vertically */
+    justify-content: center; /* Centers the container horizontally */
+}
+
+.profile-image {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.hero-container:hover .profile-image {
+    transform: scale(1.1); /* Enlarges the image on hover */
+}
+
+.hero-container:hover .hero-info {
+    opacity: 1; /* Shows the info on hover */
+}
+@media (max-width: 767.98px) {
+  .shadow-mobile {
+    box-shadow: 30px 30px 0px rgba(0, 0, 0, 0.8); /* You can customize the shadow as needed */
+  }
+  .row {
+    justify-content: center;  /* Centers the column horizontally in the row */
+  }
+
+  .aboutmob {
+    text-align: center;       /* Centers text inside the div */
+    padding: 0 15px;          /* Optional: adds padding for better spacing on mobile */
+  }
+
+  .aboutmob .d-grid {
+    justify-content: center;  /* Centers content within the d-grid container */
+  }
+}
